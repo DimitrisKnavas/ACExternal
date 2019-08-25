@@ -1,2 +1,2 @@
 # ACExternal
-An external cheat with RPM and WPM in C#
+An external cheat for Assault Cube game
