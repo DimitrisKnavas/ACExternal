@@ -1,0 +1,13 @@
+G:\VS2019 repository\Dummy Program\ACExternal\bin\Debug\ACExternal.exe.config
+G:\VS2019 repository\Dummy Program\ACExternal\bin\Debug\ACExternal.exe
+G:\VS2019 repository\Dummy Program\ACExternal\bin\Debug\ACExternal.pdb
+G:\VS2019 repository\Dummy Program\ACExternal\obj\Debug\ACExternal.csprojAssemblyReference.cache
+G:\VS2019 repository\Dummy Program\ACExternal\obj\Debug\ACExternal.csproj.CoreCompileInputs.cache
+G:\VS2019 repository\Dummy Program\ACExternal\obj\Debug\ACExternal.exe
+G:\VS2019 repository\Dummy Program\ACExternal\obj\Debug\ACExternal.pdb
+G:\VS2019 repository\Dummy Program\ACExternal\bin\Debug\System.Drawing.Common.dll
+G:\VS2019 repository\Dummy Program\ACExternal\obj\Debug\ACExternal.csproj.CopyComplete
+G:\VS2019 repository\Dummy Program\ACExternal\bin\Debug\WindowsBase.dll
+G:\VS2019 repository\Dummy Program\ACExternal\bin\Debug\Microsoft.DirectX.Direct3D.dll
+G:\VS2019 repository\Dummy Program\ACExternal\bin\Debug\Microsoft.DirectX.Direct3DX.dll
+G:\VS2019 repository\Dummy Program\ACExternal\bin\Debug\Microsoft.DirectX.dll
