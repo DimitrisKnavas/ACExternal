@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ACExternal
 {
-    public class Memory
+    static class Memory
     {
         [DllImport("kernel32.dll", SetLastError = true)]
         public static extern IntPtr OpenProcess(uint procAccess, bool bInheritHandle, int procId);
@@ -41,7 +41,6 @@ namespace ACExternal
         [DllImport("kernel32.dll", SetLastError = true)]
         static extern unsafe bool CloseHandle(IntPtr hObject);
 
-        private byte[] intRead = new byte[4];
         //private static uint PROCESS_ALL_ACCESS = 0x1F0FFF;
         private static uint PROCESS_VM_READ = 0x0010;
         private static uint PROCESS_VM_WRITE = 0x0020;
