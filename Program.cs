@@ -26,6 +26,8 @@ namespace ACExternal
             Player self = new Player();
             self.godmodeThread.Start();
 
+            Entity entities = new Entity();
+
             Overlay ov = new Overlay();
             ov.Window.Visible = true;
 
@@ -40,9 +42,10 @@ namespace ACExternal
                     goto WaitProcess;
                 }
                 self.updatePlayerPos();
+                entities.updatePlayerPos();
                 Window.printRect();
                 ov.drawRect(Window.rect);
-                Thread.Sleep(250);
+                Thread.Sleep(1500);
             }
         }
 

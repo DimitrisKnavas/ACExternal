@@ -79,6 +79,7 @@
     <Compile Include="Data\PointStruct.cs" />
     <Compile Include="Data\RectangleStruct.cs" />
     <Compile Include="Data\Vector3.cs" />
+    <Compile Include="Entity.cs" />
     <Compile Include="Memory.cs" />
     <Compile Include="Offsets.cs" />
     <Compile Include="GFX\Overlay.cs" />

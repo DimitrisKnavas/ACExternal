@@ -10,16 +10,16 @@ namespace ACExternal
 {
     public class Player:IDisposable
     {
-        private IntPtr Base =(IntPtr)Offsets.playerBase;
-        private int playerAddress { get; set; }
-        private IntPtr HealthAddress { get; set; }
-        private IntPtr ArmorAddress { get; set; }
-        private IntPtr ARAmmoAddress { get; set; }
-        private IntPtr headAddress { get; set; }
-        private IntPtr feetAddress { get; set; }
-        private Vector3 head { get; set; }
-        private Vector3 feet { get; set; }
-        private Vector3 eyePosition { get; set; }
+        protected IntPtr Base =(IntPtr)Offsets.playerBase;
+        protected int playerAddress;
+        protected IntPtr HealthAddress;
+        protected IntPtr ArmorAddress;
+        protected IntPtr ARAmmoAddress;
+        protected IntPtr headAddress;
+        protected IntPtr feetAddress;
+        protected Vector3 head;
+        protected Vector3 feet;
+        protected Vector3 eyePosition;
         public Thread godmodeThread { get; set; }
 
         public Player()
@@ -34,12 +34,12 @@ namespace ACExternal
 
         }
 
-        public void updatePlayerPos()
+        public virtual void updatePlayerPos()
         {
             head = Memory.ReadVector(headAddress);
             feet = Memory.ReadVector(feetAddress);
             eyePosition = Vector3.addVectors(head, feet);
-            Console.WriteLine($"{eyePosition.ToString()}");
+            Console.WriteLine($"My position: {eyePosition.ToString()}");
         }
 
         public void GodMode()
